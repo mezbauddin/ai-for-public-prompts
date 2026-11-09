@@ -143,4 +143,4 @@ Corrections and new prompts are welcome, especially from people who've tried the
 
 I'm Mezba Uddin. I work in NHS IT, and I'm a Microsoft MVP and Microsoft Certified Trainer. You can find me on [LinkedIn](https://www.linkedin.com/in/mezbauddin/). The same prompts, plus a short course and role guides, are at [copilotforall.com](https://copilotforall.com).
 
-This is an independent side project. It isn't affiliated with or endorsed by Microsoft, the NHS or my employer, and it doesn't represent any of their views.
+This is a personal community project. It isn't run or endorsed by Microsoft, the NHS or my employer, and it doesn't represent any of their views.
