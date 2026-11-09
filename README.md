@@ -1,6 +1,6 @@
 # Ai for public prompts
 
-TL;DR: 82 free, copy-and-paste AI prompts for people working in UK public services. Each one tells you why it works and what to check before you trust the answer. Pick your role below, copy a prompt, fill in the bits in `{curly brackets}`.
+TL;DR: 81 free, copy-and-paste AI prompts for people working in UK public services. Each one tells you why it works and what to check before you trust the answer. Pick your role below, copy a prompt, fill in the bits in `{curly brackets}`.
 
 Most of these are written for Copilot Chat, because that's the one most public sector staff already have. They'll work in other assistants too, as long as your organisation allows them.
 
@@ -12,6 +12,7 @@ This library is new, and it hasn't had much real-world testing yet. If a prompt 
 - Sign in with your work account. Never use a personal account for work content.
 - Read every answer before you use it. You're responsible for what goes out, not the model.
 - Clinical outputs are drafts. They aren't clinical advice, and they need checking by someone qualified.
+- These prompts are for drafting and admin, and not for diagnosis or treatment decisions. Some trusts don't allow any patient information in Copilot, so check your local policy first.
 
 ## How each prompt is laid out
 
@@ -19,7 +20,7 @@ Every prompt has a page with the wording to copy, why it works and what to watch
 
 ## The prompts
 
-### Clinicians (8)
+### Clinicians (7)
 
 - [Turn clinic note bullets into a GP letter](prompts/clinician/clinic-letter-from-bullets.md)
 - [Summarise a discharge summary for a busy clinic](prompts/clinician/summarise-discharge-letter.md)
@@ -27,7 +28,6 @@ Every prompt has a page with the wording to copy, why it works and what to watch
 - [Pull actions out of MDT meeting notes](prompts/clinician/mdt-meeting-notes.md)
 - [Compare two guidelines side by side](prompts/clinician/guideline-summary.md)
 - [Draft a referral letter to another specialty](prompts/clinician/referral-letter-draft.md)
-- [Build a differential checklist to think against](prompts/clinician/differential-checklist.md)
 - [Explain a procedure for informed consent](prompts/clinician/consent-explainer.md)
 
 ### Nurses and AHPs (7)
