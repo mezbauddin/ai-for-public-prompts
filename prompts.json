@@ -634,24 +634,14 @@
     "watchOut": "Check the history it pulls through. It will sometimes promote an old, resolved problem into the active list."
   },
   {
-    "slug": "differential-checklist",
-    "title": "Build a differential checklist to think against",
-    "role": "clinician",
-    "tool": "copilot-chat",
-    "task": "analyse",
-    "prompt": "I am thinking through a presentation of {symptoms} in a {age, sex} patient. List the differentials worth keeping in mind, grouped as common, serious-must-not-miss, and rare. For each, name the one feature that would push it up or down your list. UK English. This is a thinking aid, not a diagnosis.",
-    "whyItWorks": "The must-not-miss grouping mirrors how clinicians are taught to reason. Asking for the discriminating feature turns a flat list into something you can actually think against.",
-    "watchOut": "This is a prompt for jogging your own reasoning, never a substitute for it. The model has no access to the patient in front of you."
-  },
-  {
     "slug": "consent-explainer",
     "title": "Explain a procedure for informed consent",
     "role": "clinician",
     "tool": "copilot-chat",
     "task": "translate",
-    "prompt": "Write a plain-English explanation of {procedure} to support an informed consent conversation. Reading age 11. UK English. Cover: what it involves, the main benefits, the common risks with rough frequencies if well established, the serious risks, and the alternatives including doing nothing. Flag anything where the frequency depends on local data with [LOCAL FIGURE].",
+    "prompt": "Write a plain-English explanation of {procedure} to support an informed consent conversation. Reading age 11. UK English. Cover: what it involves, the main benefits, the common risks, the serious risks, and the alternatives including doing nothing. Do not give any risk frequencies or percentages. Where one is needed, write [APPROVED LOCAL FIGURE].",
     "whyItWorks": "Structuring around benefits, common risks, serious risks and alternatives matches the Montgomery standard for consent. The [LOCAL FIGURE] flag stops it inventing complication rates.",
-    "watchOut": "Risk frequencies are the thing to verify against your own service data. Never read out a number the model produced without checking it."
+    "watchOut": "Check it against your approved patient information. Risk figures must come from your own service, never from the model. A clinician leads the consent conversation."
   },
   {
     "slug": "ward-round-actions",
@@ -669,7 +659,7 @@
     "role": "nurse-ahp",
     "tool": "copilot-chat",
     "task": "draft",
-    "prompt": "From the observations below, draft the narrative for a {falls / pressure area} risk assessment. Stick to the facts given. UK English. Use the structure: current risk factors, protective factors, planned interventions, review date as [DATE]. Do not invent a score. Do not infer mobility you were not told about.",
+    "prompt": "From the observations below, draft the narrative for a {falls / pressure area} risk assessment. Stick to the facts given. UK English. Use the structure: current risk factors, protective factors, interventions already stated in the notes, review date as [DATE]. Do not suggest new interventions. Do not invent a score. Do not infer mobility you were not told about.",
     "whyItWorks": "Telling it not to invent a score keeps the clinical judgement where it belongs, with you. The structure matches what most trust assessment tools expect.",
     "watchOut": "The score and the review date are yours to set. The model drafts the prose around them, nothing more."
   },

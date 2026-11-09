@@ -7,7 +7,7 @@
 ## Prompt
 
 ```text
-From the observations below, draft the narrative for a {falls / pressure area} risk assessment. Stick to the facts given. UK English. Use the structure: current risk factors, protective factors, planned interventions, review date as [DATE]. Do not invent a score. Do not infer mobility you were not told about.
+From the observations below, draft the narrative for a {falls / pressure area} risk assessment. Stick to the facts given. UK English. Use the structure: current risk factors, protective factors, interventions already stated in the notes, review date as [DATE]. Do not suggest new interventions. Do not invent a score. Do not infer mobility you were not told about.
 ```
 
 ## Why it works

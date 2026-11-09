@@ -7,7 +7,7 @@
 ## Prompt
 
 ```text
-Write a plain-English explanation of {procedure} to support an informed consent conversation. Reading age 11. UK English. Cover: what it involves, the main benefits, the common risks with rough frequencies if well established, the serious risks, and the alternatives including doing nothing. Flag anything where the frequency depends on local data with [LOCAL FIGURE].
+Write a plain-English explanation of {procedure} to support an informed consent conversation. Reading age 11. UK English. Cover: what it involves, the main benefits, the common risks, the serious risks, and the alternatives including doing nothing. Do not give any risk frequencies or percentages. Where one is needed, write [APPROVED LOCAL FIGURE].
 ```
 
 ## Why it works
@@ -16,4 +16,4 @@ Structuring around benefits, common risks, serious risks and alternatives matche
 
 ## Watch out
 
-Risk frequencies are the thing to verify against your own service data. Never read out a number the model produced without checking it.
+Check it against your approved patient information. Risk figures must come from your own service, never from the model. A clinician leads the consent conversation.
